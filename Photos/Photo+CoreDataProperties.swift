@@ -15,7 +15,7 @@ import CoreData
 extension Photo {
 
     @NSManaged var caption: String?
-    @NSManaged var dateTaken: NSTimeInterval
+    @NSManaged var dateTaken: NSDate?
     @NSManaged var imageData: NSData?
     @NSManaged var latitude: Double
     @NSManaged var longitude: Double

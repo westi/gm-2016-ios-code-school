@@ -8,10 +8,27 @@
 
 import Foundation
 import CoreData
-
+import UIKit
+import CoreLocation
 
 class Photo: NSManagedObject {
-
-// Insert code here to add functionality to your managed object subclass
-
+    
+    lazy var image: UIImage? = {
+        if let data = self.imageData {
+            return UIImage( data: data )
+        }
+        return nil
+    } ()
+    
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+    
+    var daymonthyear: String{
+        get{
+            let dateFormatter = NSDateFormatter()
+            dateFormatter.dateFormat = "dd-MMM-yyyy"
+            return dateFormatter.stringFromDate(self.dateTaken!)
+        }
+    }
 }

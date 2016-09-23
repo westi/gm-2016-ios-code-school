@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D069E7CF1D8DC2D5007080B6 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E7CD1D8DC2D5007080B6 /* Photo+CoreDataProperties.swift */; };
-		D069E7D01D8DC2D5007080B6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E7CE1D8DC2D5007080B6 /* Photo.swift */; };
+		D00D671F1D9069010033A872 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D671D1D9069010033A872 /* Photo.swift */; };
+		D00D67201D9069010033A872 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D671E1D9069010033A872 /* Photo+CoreDataProperties.swift */; };
 		D071A9011D8C7AB000128256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D071A9001D8C7AB000128256 /* AppDelegate.swift */; };
 		D071A9031D8C7AB000128256 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D071A9021D8C7AB000128256 /* PhotoViewController.swift */; };
 		D071A9061D8C7AB000128256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D071A9041D8C7AB000128256 /* Main.storyboard */; };
@@ -43,8 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D069E7CD1D8DC2D5007080B6 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Photo+CoreDataProperties.swift"; path = "../Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D069E7CE1D8DC2D5007080B6 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = ../Photo.swift; sourceTree = "<group>"; };
+		D00D671D1D9069010033A872 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D00D671E1D9069010033A872 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D071A8FD1D8C7AAF00128256 /* Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D071A9001D8C7AB000128256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D071A9021D8C7AB000128256 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		D071A8FF1D8C7AB000128256 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				D069E7CD1D8DC2D5007080B6 /* Photo+CoreDataProperties.swift */,
-				D069E7CE1D8DC2D5007080B6 /* Photo.swift */,
+				D00D671D1D9069010033A872 /* Photo.swift */,
+				D00D671E1D9069010033A872 /* Photo+CoreDataProperties.swift */,
 				D071A9001D8C7AB000128256 /* AppDelegate.swift */,
 				D071A9021D8C7AB000128256 /* PhotoViewController.swift */,
 				D071A9041D8C7AB000128256 /* Main.storyboard */,
@@ -285,13 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D069E7D01D8DC2D5007080B6 /* Photo.swift in Sources */,
-				D069E7CF1D8DC2D5007080B6 /* Photo+CoreDataProperties.swift in Sources */,
 				D071A9091D8C7AB000128256 /* Photos.xcdatamodeld in Sources */,
 				D071A9341D8CA52000128256 /* PhotoCell.swift in Sources */,
 				D0A0A1681D8E06EF00E32AEA /* MapViewController.swift in Sources */,
 				D0A749B31D8CB88E00AC50EE /* SavePhotoViewController.swift in Sources */,
+				D00D67201D9069010033A872 /* Photo+CoreDataProperties.swift in Sources */,
 				D0871C231D90647C009D7094 /* PhotoSectionReusableView.swift in Sources */,
+				D00D671F1D9069010033A872 /* Photo.swift in Sources */,
 				D071A9031D8C7AB000128256 /* PhotoViewController.swift in Sources */,
 				D071A9011D8C7AB000128256 /* AppDelegate.swift in Sources */,
 				D071A9321D8C83C100128256 /* PhotoCollectionViewController.swift in Sources */,
